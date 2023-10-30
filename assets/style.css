@@ -1,0 +1,118 @@
+html, body{
+    margin: 0;
+}
+header {
+    width: 100%;
+    max-width: 1300px;
+    background-color:#23303F;
+}
+header .logo img {
+    width: 70px; 
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+nav {
+    background-color: #354858;
+    width: 100%;
+    margin: 0;
+    
+} 
+ul {
+    padding: 5px 20px 5px 20px;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 0;
+    margin-right: 10px;
+    color: white;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+main {
+    width: 100%;
+    max-width: 1300px;
+    color:#E9EDEF;
+    padding: 20px;
+}
+main .gift {
+    background-color: #F56600;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main .header {
+    background-image: url(/assets/bg-image.png);
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+main .cards {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+main .cards div {
+    width: 25%;
+    height: 230px;
+    display: relative;
+    float: left;
+    border-radius: 40px;
+}
+main .cards div {
+    background-image: url(/assets/img_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  background-size: auto 230px;
+}
+main .play img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+footer {
+    background-color: #23303F;
+    text-align: center;
+}
+footer .totop {
+    background-color: #354858;
+    text-align: center;
+    padding: 10px;  
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+footer .logo img {
+    display: inline-block; 
+    width: 70px; 
+    height: auto;   
+    margin: 10px 0 0px 0; 
+}
+
+.play {
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+}
+.play img {
+    width: 100%;
+}
+.play a {
+    text-decoration: none; 
+    color: #006373;}
+.play a:hover {
+    text-decoration: underline;}
